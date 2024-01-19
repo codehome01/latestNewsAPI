@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+ul li a:hover{
+    color:darkred;
+}
+
+li a{
+    cursor: pointer;
+}
+
+
+ nav ul {
+    margin: 0;
+    padding: 5px;
+ }
+ nav ul li {
+    display: inline;
+    position: relative;
+ }
+ul li div {
+    position: absolute;
+    left: -999px;
+    width:400px;
+ }
+ul li:hover div {
+    left: 0
+ }
+ ul li ul li {
+    display: list-item;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+ }
+ul li ul{
+    display:inline-block;
+    margin: 0px;
+    padding: 0;
+ }
+ 
